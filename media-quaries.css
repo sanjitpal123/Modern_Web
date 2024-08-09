@@ -1,0 +1,13 @@
+@media screen and (max-width:991px) {
+
+   .nav-toggle{
+    display: block;
+    margin-right: 20px;
+   } 
+  .link{
+    display: none;
+  }
+  .photo1{
+    width: calc (50%-10px);
+  }
+}

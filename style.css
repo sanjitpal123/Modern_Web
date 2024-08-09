@@ -1,0 +1,815 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+/* Top Banner*/
+.top_banner{
+    height: 40px;
+    width:100%;
+    background-color: rgb(14, 135, 135);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 40px;
+   
+    font-style: initial;
+}
+
+.navbar{
+    height: 100px;
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.nav-toggle{
+  display: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-style: unset;
+}
+
+.logo img{
+    height: 40px;
+    
+}
+.navbar a{
+    margin-left: 100px;
+    
+}
+.primary_button{
+    height: 30px;
+    width: 70px;
+     background-color: aliceblue;
+    margin-left: 30px;
+    border-radius: 6px;
+    font-weight: 70px;
+    border-color: white;
+    color: black;
+    font-size: 18px;
+
+}
+.primary_button:hover{
+background-color: rgb(4, 50, 118) !important;
+    color:white;
+}
+.secondary_button{
+    height: 30px ;
+    width: 70px;
+    margin-left: 30px;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 6px;
+    border-color: #2196f3;
+    font-weight: 70px;
+    font-size: 18px;
+
+}
+.secondary_button:hover{
+    background-color: rgb(55, 246, 214);
+    color: black;
+}
+.header{
+    width: 100%;
+    height: 300px;
+   
+    display: flex;
+    justify-content: center;
+   
+}
+.text_right{
+    height: 300px;
+    width: 510px;
+    
+    
+
+}
+.get_start{
+    margin-top: 20px;
+   
+    font-size: 16px;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    border-color:  #2196f3;
+    background-color:  #2196f3;
+    font-style: italic;
+    color: white;
+}
+.get_start:hover{
+  border-color: red;
+  background-color: white;
+  color: black;
+
+}
+.contain_left{
+    height: 300px;
+    width: 600px;
+ 
+}
+.contain_left img{
+     height: 300px;
+     width: 600px;
+}
+.hh{
+    margin-bottom: 30px;
+}
+.pp{
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.company{
+    font-size: 20px;
+    font-style: unset;
+}
+.companylog{
+    display: flex;
+    justify-content: center;
+ 
+    height: 100px;
+    width: 100%;
+   
+}
+.logo1{
+    margin-right: 40px;
+}
+.hh1{
+    font-size: 30px;
+    font-style:unset;
+    font-weight: 70%;
+    margin-top: 40px;
+    text-align: center;
+
+}
+.sfeature{
+    margin-left: 700px;
+    margin-top: 25px;
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+   background-color: white;
+   border-radius: 6px;
+   border-color: rgb(9, 9, 9);
+
+}
+.sfeature:hover{
+    background-color: blue;
+    color: white;
+}
+.container{
+    background-color:white;
+    margin-top: 40px;
+    height: 600px;
+    width: 900px;
+    margin-left: 350px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 10px;
+}
+.containeer{
+  max-width: 1380px;
+  margin-inline: auto;
+  overflow: hidden;
+ 
+}
+
+
+
+.d1 img{
+    margin-left: 140px;
+}
+.card{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.dis{
+    text-align: center;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+.learnmore2{
+  height: 40PX;
+  width: 150PX;
+  text-align: center;
+  background-color: WHITE;
+  margin-left: 70px;
+  border-radius: 4px;
+  border-color: red;
+  font-size: 16px;
+  margin-top: 30px;
+
+}
+.learnmore2:hover{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+.d2 img{
+    margin-left: 140px;
+    height: 40px;
+    width: 60px;
+
+}
+.card1{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.dis1{
+    text-align: center;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+.learnmore3{
+    height: 40PX;
+    width: 150PX;
+    text-align: center;
+    background-color: WHITE;
+    margin-left: 73px;
+    border-radius: 4px;
+    border-color: red;
+    font-size: 16px;
+    margin-top: 30px;
+  
+  }
+  .learnmore3:hover{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.d3 img{
+    margin-left: 130px;
+    height: 40px;
+    width: 40px;
+ 
+}
+.card2{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.dis2{
+    text-align: center;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+.learnmore4{
+    height: 40PX;
+    width: 150PX;
+    text-align: center;
+    background-color: WHITE;
+    margin-left: 73px;
+    border-radius: 4px;
+    border-color: red;
+    font-size: 16px;
+    margin-top: 30px;
+  
+  }
+  .learnmore4:hover{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+  .d4 img{
+    margin-left: 130px;
+    height: 40px;
+    width: 40px;
+ 
+}
+.card3{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.dis3{
+    text-align: center;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+.learnmore5{
+    height: 40PX;
+    width: 150PX;
+    text-align: center;
+    background-color: WHITE;
+    margin-left: 73px;
+    border-radius: 4px;
+    border-color: red;
+    font-size: 16px;
+    margin-top: 30px;
+  
+  }
+  .learnmore5:hover{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+
+  .d5 img{
+    margin-left: 130px;
+    height: 40px;
+    width: 40px;
+ 
+}
+.card4{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.dis4{
+    text-align: center;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+.learnmore6{
+    height: 40PX;
+    width: 150PX;
+    text-align: center;
+    background-color: WHITE;
+    margin-left: 73px;
+    border-radius: 4px;
+    border-color: red;
+    font-size: 16px;
+    margin-top: 30px;
+  
+  }
+  .learnmore6:hover{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+  .d6 img{
+    margin-left: 130px;
+    height: 40px;
+    width: 40px;
+ 
+}
+.card5{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.dis5{
+    text-align: center;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+.learnmore7{
+    height: 40PX;
+    width: 150PX;
+    text-align: center;
+    background-color: WHITE;
+    margin-left: 73px;
+    border-radius: 4px;
+    border-color: red;
+    font-size: 16px;
+    margin-top: 30px;
+  
+  }
+  .learnmore7:hover{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+  .main2{
+    
+    height: 500px;
+    width: 1000px;
+    margin-left: 230px;
+    display: flex;
+  }
+  .logotext{
+    
+    height: 100%;
+    width: 100%;
+  }
+  .designh{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 35px;
+  }
+  
+   .designp{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 30px; 
+    margin-left: 20px; 
+    font-weight: 70%;  
+    
+  }
+  .char{
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .charp{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-style: italic;
+
+    
+  }
+
+
+
+
+  .main3{
+    
+    height: 500px;
+    width: 1000px;
+    margin-left: 230px;
+    display: flex;
+
+  }
+  .logotext1{
+    
+    height: 100%;
+    width: 100%;
+  }
+  .designhl{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 35px;
+  }
+  
+   .designpl{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 30px; 
+    margin-left: 20px; 
+    font-weight: 70%;  
+    
+  }
+  .char1{
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .charp1{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-style: italic;
+
+    
+  }
+
+
+  
+  .main4{
+    
+    height: 500px;
+    width: 1000px;
+    margin-left: 230px;
+    display: flex;
+
+  }
+  .logotext2{
+    
+    height: 100%;
+    width: 100%;
+  }
+  .designhll{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 35px;
+  }
+  
+   .designpll{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 30px; 
+    margin-left: 20px; 
+    font-weight: 70%;  
+    
+  }
+  .char2{
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .charp2{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-style: italic;
+
+    
+  }
+  .ecomicpr{
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .one-platform{
+    height: 200px;
+    width: 100%;
+   
+  }
+.textpart{
+    text-align: center;
+    font-size: 26px;
+    font-style: italic;
+
+}
+.seemore img{
+  height: 30px;
+  width: 20px;
+  align-items: center;
+}
+.seemore{
+  height: 60px;
+  width: 240px;
+  font-size: 18px;
+  margin-left: 700px;
+  margin-top: 30px;
+  border-radius: 4px;
+  border-color: red;
+}
+.seemore:hover{
+  background-color: rgb(102, 187, 244);
+  color: white;
+
+}
+.photo{
+  height: 300px;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  
+}
+.photo1{
+  height: 300px;
+  width:23%px;
+margin-right: 20px;
+background-color: #222;
+background-blend-mode: hard-light;
+}
+
+.writting{
+  height: 200px;
+  width: 300px;
+  
+  position: relative;
+  top:-70px;
+  
+}
+.writting h1{
+  font-size: 21px;
+  font-style: unset;
+  margin-left: 20px;
+  color: white;
+}
+.writting h1:hover{
+  color: rgb(241, 18, 18);
+}
+.panelflex{
+  margin-top: 2rem;
+}
+.panel{
+  width: 100%;
+  height: 600px;
+  margin-top: 4rem;
+  background-color: rgb(97, 134, 168);
+  
+}
+.paneltext{
+  height: 400px;
+  width: 600px;
+  
+  margin-top: 70px;
+}
+.panelimg{
+  height: 500px;
+  width: 600px;
+  background-image: url(panelimg.png);
+  background-size: cover;
+}
+.th{
+  font-size: 40px;
+  color:white;
+}
+.paneltext p{
+  color:rgb(12, 12, 12);
+
+}
+.paneltext1 h2{
+  color: white;
+  margin-top: 70px;
+}
+.list {
+  margin-top: 20px;
+  float:left;
+  color: rgb(11, 11, 11);
+}
+.list1{
+  margin-top: 20px;
+  float:left;
+  margin-left: 50px;
+  color: rgb(13, 13, 13);
+}
+.panelbuton{
+  margin-top: 150px;
+  margin-left: -400px;
+  height: 40px;
+  width: 250px;
+  background-color:rgb(15, 38, 245) ;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+  border-color: red;
+  cursor:pointer;
+}
+.panelbuton:hover{
+  background-color: white;
+  border-color: red;
+  color: rgb(14, 13, 13);
+}
+b{
+  font-size: 30px;
+  margin-left: 10px;
+  color: wheat;
+}
+.panelbuton1{
+    margin-left: 20px;
+  height: 40px;
+  width: 250px;
+
+  color: rgb(171, 167, 167);
+  border-radius: 6px;
+  font-size: 20px;
+  border-color: rgb(239, 78, 78);
+  cursor:pointer;
+}
+.panelbuton1:hover{
+  background-color: aqua;
+  color: black;
+}
+.upfooter{
+  
+  height: 400px;
+  width: 100%;
+}
+.upfooter h1{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 100px;
+}
+.upfooter h3{
+  
+  text-align: center;
+  margin-top: 60px;
+  font-size: 25px;
+}
+.upfooter button{
+  height: 50px;
+  width: 150px;
+   background-color:#2196f3 ;
+  color: white;
+  margin-left: 700px;
+  margin-top: 60px;
+  font-size: 18px;
+}
+.upfooter button:hover{
+  background-color: white;
+  color: black;
+  border-color: red;
+}
+.upfooter1{
+  height: 400px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+.usabilities{
+  height: 400px;
+  width: 300px;
+
+  margin-left: 20px;
+}
+.product{
+  height: 400px;
+  width: 300px;
+  
+  margin-left: 20px;
+}
+.methodologies{
+  height: 400px;
+  width: 300px;
+
+  margin-left: 20px;
+}
+.resources{
+  height: 400px;
+  width: 300px;
+  
+  margin-left: 20px;
+}
+.usabilities img{
+  margin-top: 50px;
+}
+.product h1{
+  margin-top: 50px;
+  font-size: 25px;
+
+}
+a:hover{
+  color: blue;
+
+}
+.methodologies h1{
+  margin-top: 50px;
+  font-size: 25px;
+
+}
+.resources h1{
+  margin-top: 50px;
+  font-size: 25px;
+
+}
+.last{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(97, 134, 168);
+  display: flex;
+}
+.textp{
+  height: 100px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+
+
+}
+.Privacy{
+  margin-top: 40px;
+}
+.term{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.security{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.logopart{
+  height: 100px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+
+}
+.facebook{
+  margin-top: 40px;
+  cursor: pointer;
+
+}
+.twiter{
+  margin-left: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.linkin{
+  margin-left: 30px;
+  cursor: pointer;
+
+  margin-top: 40px;
+}
+.youtube{
+  margin-left: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+
+}
+#bar{
+  display: none;
+}
+
+
+@media (max-width:991px) {
+  #bar{
+    display: block;
+    margin-right: 20px;
+  }
+  .link{
+    display: none;
+  }
+  .logo{
+    margin-right: 490px;
+  }
+  .photo{
+    gap:20px;
+  }
+
+  
+}
+
+
